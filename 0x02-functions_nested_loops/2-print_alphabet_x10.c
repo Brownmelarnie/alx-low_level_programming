@@ -3,6 +3,8 @@
 /**
  * print_alphabet_x10 - prints 10 times the alphabelt, in lowercase,
  * followed by a new line
+ *
+ * Return: always 0
  */
 
 void print_alphabet_x10(void)
