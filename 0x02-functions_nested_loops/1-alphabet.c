@@ -1,15 +1,12 @@
 #include "main.h"
 
 /**
- * print_alphabelt - print all alphabet in lowercase
+ * main - print all alphabet in lowercase
+ *
+ * Return: Always 0.
  */
-
-void print_alphabelt(void)
+int main(void)
 {
-	char letter;
-
-	for (letter = 'a'; letter <= 'z'; letter++)
-		_putchar(letter);
-
-	_putchar('\n');
+	print_alphabet();
+	return (0);
 }
