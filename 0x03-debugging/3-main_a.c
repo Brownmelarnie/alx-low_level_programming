@@ -9,19 +9,14 @@
 
 int main(void)
 {
-	int month;
-	int day;
-	int year;
+	/*
+	 * 02/29/2000
+	 * 04/01/1997
+	 */
 
-	month = 4;
-	day = 01;
-	year = 1997;
+	int day = convert_day(04, 01);
 
-    printf("Date: %02d/%02d/%04d\n", month, day, year);
+	print_remaining_days(4, day, 1997);
 
-    day = convert_day(month, day, year);
-
-    print_remaining_days(month, day, year);
-
-    return (0);
+	return (0);
 }
