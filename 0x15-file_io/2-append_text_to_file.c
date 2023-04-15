@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * append_text_to_file - apends text to file
- * @filename: path to file
- * @text_content: content
- * Return: If the function fails or filename is NULL - -1.
- * If the file does not exist the user lacks write permissions - -1.
- * Otherwise - 1.
+ * append_text_to_file - appends text to the files
+ * @filename: The path to the files
+ * @text_content: content of the files
+ * Return: If function fails or filename is NULL - -1.
+ * If files does not exist, user lacks write permissions - -1.
+ * else - 1.
  */
 
 int append_text_to_file(const char *filename, char *text_content)
